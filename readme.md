@@ -11,12 +11,15 @@
 ## Project Structure
 
 .
-├── data                   # Compiled files (alternatively `dist`)
-|  ├── raw
-|  ├── intermid
-|  ├── output
-├── docs                    # Documentation files (alternatively `doc`)
-├── src                     # Source files (alternatively `lib` or `app`)
-├── test                    # Automated tests (alternatively `spec` or `tests`)
-├── tools                   # Tools and utilities
+├── data                   # Dataset files
+|   ├── raw
+|   ├── intermid
+|   ├── output
+├── nb_workspace           # Jupiter notebooks
+├── docs                   # Documentation files
+├── report                 # Reports files
+|   ├── plots               # Figures files
+|   ├── reports             # Reports HTML files
+├── src                    # Source scripts files
+|   ├── env                 # Script file to create project directory environment
 └── README.md

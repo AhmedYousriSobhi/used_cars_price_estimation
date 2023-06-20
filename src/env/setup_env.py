@@ -23,5 +23,8 @@ if __name__=='__main__':
     # Create required directories for report
     if not os.path.exists('report/'):
         os.makedirs('report/plots')
-        os.makedirs('report/documents')
         os.makedirs('report/reports')
+
+    # Create required directories for Documentation
+    if not os.path.exists('docs/'):
+        os.makedirs('docs/')
