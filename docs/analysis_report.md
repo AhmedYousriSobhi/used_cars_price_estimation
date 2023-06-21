@@ -10,7 +10,7 @@ In this analysis, we will leverage a comprehensive dataset that includes informa
 
 Through this analysis, we aim to gain insights into the key factors influencing used car prices, identify patterns or trends in the market, and develop a data-driven approach for estimating prices that aligns with customer expectations and the competitive landscape. By leveraging the power of data science and statistical techniques, we can enhance our decision-making process and optimize our pricing strategy for buying used cars from customers.
 
-The following sections of this report will delve into the details of the analysis, including data preprocessing, descriptive statistics, correlation analysis, feature importance, time series analysis, competitor price analysis, market segmentation, and provide recommendations based on the findings.
+The following sections of this report will delve into the details of the analysis, including data preprocessing, descriptive statistics, correlation analysis, feature importance, time series analysis, competitor price analysis, provide recommendations based on the findings, and suggested key performance indicators for the company.
 
 ## Data Overview
 The analysis is based on given dataset that contains information relevant to estimating the prices of used cars.
@@ -27,7 +27,77 @@ The dataset includes the following columns:
 |Competitor Price| The price set by competitors for similar used cars. Serves as a reference and comparison for estimating the appropriate price for each car.|
 |Priced_at|The date on which the competitor price was added. Allows analysis of trends and patterns in competitor prices over time.|
 
-## Most important KPIs
+## Data Preprocessing
+Before conducting the analysis, several preprocessing steps were performed on the dataset. These steps included handling missing values, filtering outliers based on relevant features, and creating additional features such as car age, price moving average over last n purchases, competitor price differential, car model poplularity, and historical price change.
+
+## Analysis Insights
+1- Individual Features Analayis
+
+![numerical_distribution](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/85f4cc1e-1e5a-4797-ae3c-df545fd6d07b)
+
+By analysing the distribution of each of these features [model year, Kilomoters driven, price, count of extra features] by each car, It was identified the following
+- There are skewness in {price, model_year, extra_features_count} features, So for price analysis, the price estimated should be between [100K - 600K] EGP.
+- The central tendency of extra_features are centered around [6-18], which means most of used cars have number of extra_features ranges from [6 - 18] features.
+- The company should focus on used cars with models from years [2014 - 2020], as it was analysised that The central tendency of model_year feature are centered around these years intervals.
+
+2- Car Models Analysis: 
+- We determinded the most common car models in the dataset by calculating the frequency of each model.
+- This insight provides an understanding of the market's preferences and the popularity of certain car models.
+- The most common model in used car is Nissan Sunny, which indicates that it is recommended to invest in this model.
+![model_countplot](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/68b12fe7-60e1-44c7-83df-0509b6476bce)
+Assumption that, Due to price range difference between models, That affects number of acquisition of certain model rather than other, So Juke Platinium should be the most significantly high price in all the models, so the compnay does not invest in frequently compared to other models.
+
+3- Driven Mileage in Kilomoter analysis:
+- Most of the cars we have, have driven around 0-150K.
+- It is recommended that Most of sold used cars should be driven for around 0-150K.
+![mileage_category_countplot](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/7bfbf4ec-9ff2-4ab3-9565-b08fd418e2a8)
+
+4- Car extra Features analysis: 
+- By comparing the most frequent used features in each car, it is recommended that the used car should have atleast these ten feaures ['abs', 'aux', 'airbags', 'powermirrors', 'powerwindows', 'airconditioning', 'powersteering', 'keyless', 'usb', 'ebd'].
+
+5-Common car models with transmission type:
+![tranmission_per_model_countplot](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/ba1c0d32-7d77-4d0c-9162-36c2331a8687)
+- The car model "Sunny" has a higher number of manual transmission cars compared to other models in the dataset.
+- It is important to note that the dataset contains a relatively small number of cars with manual transmission.
+- This can potentially introduce some bias when estimating the price of used cars using machine learning or statistical models
+
+6- Model manufacturing years:
+- By analysisng the manufacturing year for each used car model. to have better insights which model is most common used in the market over its history.
+- Model Sunny, has the highest different model years in our data, which indicates that Sunny has a long history in the market compared to others models.
+- In the opposite side, model Juke Platinium has the lowest model years.
+![modelyears_plot](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/295ec3d7-e614-48f0-996b-a831df5736eb)
+
+7- Effect of transmission type in car price:
+
+![price_distribution_over_transmission_type](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/32915bca-3feb-4fa9-9668-a5790936878a)
+
+8- Price Trend and Pattern over the years:
+![Price_Trend_After_Cleaning](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/9628e474-889f-462f-898a-db8382d57b4b)
+
+9- How does the price vary based on different car features such as car model, manufacturing year, and kilometers driven?
+![price_effect_per_Features](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/5283d5d0-319e-4049-89f7-c3ca169c51ac)
+
+To understand Violin plot, there are some aspects to consider:
+| Aspect | Description|
+|--------|------------|
+|Distribution of Data| The width of the violin plot represents the density of data points at different price level. <br/>A wider section indicates a higher concentration of data points, which a narrower section indicates a lower concentration.|
+|Median| The white dot within the violin plot represents the median value of the data distribution. <br/>It provides an estimate of the central tendency of the data.|
+|Interquartile Range (IQR)| The box inside the violin plot represents the interquartile range, which spans from the 25th precentile (lower quartile) to the 75th precentile (upper quartile) of the data. <br/>It provides information about the spread and variability of the data.|
+|Whiskers| The thin lines extending from the box (IQR) represents the data range within a certain threshould of the IQR. <br/>They typically cover a certain percentage of the data, such as 1.5 times the IQR. <br/>Any data points outside the whiskers are considered outliers.|
+|Symmetry| The shape of the violin plot can provide insights into the symmetry or skewness of the data distribution. <br/>A symmetric distribution will have similar shapes on both sides of the median, while a skewed distribution will have a longer tail on one side.|
+
+Insights: Using Violin plot tell us the following:
+- From distribution of price over car model:
+    - The width of each violin indicates the density of prices for a particular price. A narrorw section in the violin plot like in [Juke, Sunny, Qashqia, Sentra], indicates a more dispersed pricing pattern. A wider section in the violin plot like in [Juke Platinium, Tiida] indicate a high concentration of sales within a specific price range.
+    - The whitedot in the violin plots indicates the median price value for each car model, which give idea of typical price range. So all models  have similar range of prices, except for "Juke Platinium" has a significantly higher price.
+- From distribution of price over car model:
+    - The whitedot indicates that, the median price value per each model_year is following a rising trend over each new year.
+- From distribution of price over car transmission type:
+    - The Price in Manual transmission type used cars is concetrated in a small specific price range, relatively to Automatic transmission type, Which explains the wider & narrow width in the violin plot in both transmission types.
+
+From All these insights, they can guide our pricing strategies, We can determine which car models command higher prices due to their perceived value, understand the range of prices that customers are willing to pay for different models, and identify any outliers in the prices.
+
+## Most important suggested KPIs
 |KPI| Description|
 |---|------------|
 |Acqusition Cost| Measures the average cost incurred by the company to acquire each used car. <br/>This includes factors such as the purchase price from the seller, any associated fees, and transportation cost. <br/>Sylndr should aim to keep the acquisition cost as low as possible to maximize profitability.| 
