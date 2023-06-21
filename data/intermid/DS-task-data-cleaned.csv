@@ -1518,7 +1518,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 3176,Nissan Motor Egypt,Qashqai,2015,150000.0,Automatic,469000,2023-03-02,150k-200k,26
 1920,Nissan,Qashqai,2015,105000.0,Automatic,452000,2023-03-11,100k-150k,29
 5465,Nissan,Qashqai,2015,139000.0,Automatic,468000,2023-03-12,100k-150k,26
-13985,Nissan,Qashqai,2015,0.0,Automatic,0,2023-03-13,0-50k,26
 4649,Nissan Motor Egypt,Qashqai,2015,100000.0,Automatic,634000,2023-03-19,100k-150k,26
 6974,Nissan,Qashqai,2015,159999.0,Automatic,526000,2023-04-15,150k-200k,26
 15253,Nissan,Qashqai,2015,159999.0,Automatic,611000,2023-04-16,150k-200k,26
@@ -1785,7 +1784,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 13855,Nissan,Qashqai,2016,74000.0,Automatic,688000,2023-04-22,50k-100k,2
 19995,Nissan,Qashqai,2016,150000.0,Automatic,611000,2023-04-23,150k-200k,20
 16129,Nissan,Qashqai,2016,89999.0,Automatic,660000,2023-04-24,50k-100k,25
-7871,Nissan,Qashqai,2016,24000.0,Automatic,0,2023-04-30,0-50k,26
 4436,Nissan,Qashqai,2017,79999.0,Automatic,292000,2022-02-02,50k-100k,26
 4440,Nissan,Qashqai,2017,79999.0,Automatic,290000,2022-02-02,50k-100k,23
 4504,Nissan,Qashqai,2017,99999.0,Automatic,297000,2022-02-02,50k-100k,25
@@ -2296,7 +2294,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 14659,Nissan,Qashqai,2017,179999.0,Automatic,423000,2023-01-29,150k-200k,26
 11733,Nissan Motor Egypt,Qashqai,2017,88000.0,Automatic,493000,2023-01-31,50k-100k,10
 11755,Nissan Motor Egypt,Qashqai,2017,125000.0,Automatic,454000,2023-01-31,100k-150k,26
-4685,Nissan,Qashqai,2017,58000.0,Automatic,627000,2023-02-01,50k-100k,7
 4721,Nissan Motor Egypt,Qashqai,2017,69000.0,Automatic,556000,2023-02-01,50k-100k,9
 4737,Nissan,Qashqai,2017,99999.0,Automatic,509000,2023-02-01,50k-100k,22
 4740,Nissan,Qashqai,2017,69999.0,Automatic,574000,2023-02-01,50k-100k,26
@@ -3725,8 +3722,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 19330,Nissan,Sentra,2015,124000.0,Automatic,305000,2022-12-15,100k-150k,14
 19366,Nissan,Sentra,2015,124000.0,Automatic,321000,2022-12-15,100k-150k,9
 14263,Nissan,Sentra,2015,176000.0,Automatic,309000,2022-12-21,150k-200k,20
-16068,Nissan,Sentra,2015,182000.0,Automatic,321000,2023-01-14,150k-200k,23
-16153,Nissan,Sentra,2015,187.0,Automatic,0,2023-01-15,0-50k,10
 16164,Nissan,Sentra,2015,93000.0,Automatic,351000,2023-01-15,50k-100k,19
 12574,Nissan,Sentra,2015,119999.0,Automatic,390000,2023-01-21,100k-150k,17
 12587,Nissan,Sentra,2015,139999.0,Automatic,321000,2023-01-21,100k-150k,9
@@ -6772,7 +6767,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 14056,Nissan,Sunny,2010,199999.0,Manual,167000,2022-10-16,150k-200k,11
 17553,Nissan,Sunny,2010,192000.0,Automatic,180000,2022-10-17,150k-200k,6
 7637,Nissan,Sunny,2010,197000.0,Automatic,186000,2022-10-20,150k-200k,12
-7705,Nissan,Sunny,2010,140000.0,Automatic,161000,2022-10-20,100k-150k,6
 2207,Nissan,Sunny,2010,66000.0,Automatic,243000,2022-10-23,50k-100k,10
 376,Nissan,Sunny,2010,99999.0,Automatic,228000,2022-10-24,50k-100k,6
 8822,Nissan,Sunny,2010,19999.0,Automatic,175000,2022-10-27,0-50k,1
@@ -6792,7 +6786,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 13481,Nissan,Sunny,2010,159999.0,Automatic,187000,2022-11-24,150k-200k,6
 10651,Nissan,Sunny,2010,141000.0,Manual,159000,2022-11-25,100k-150k,6
 10688,Nissan,Sunny,2010,9999.0,Automatic,210000,2022-11-25,0-50k,6
-17167,Nissan,Sunny,2010,119999.0,Automatic,137000,2022-11-29,100k-150k,6
 1970,Nissan,Sunny,2010,99999.0,Automatic,225000,2022-11-30,50k-100k,6
 1994,Nissan,Sunny,2010,200000.0,Manual,185000,2022-11-30,200k+,6
 2028,Nissan,Sunny,2010,97000.0,Automatic,224000,2022-11-30,50k-100k,6
@@ -7063,7 +7056,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 1247,Nissan,Sunny,2011,130000.0,Automatic,188000,2022-06-05,100k-150k,6
 1248,Nissan,Sunny,2011,170000.0,Manual,123000,2022-06-05,150k-200k,9
 1249,Nissan,Sunny,2011,70000.0,Manual,149000,2022-06-05,50k-100k,17
-1318,Nissan,Sunny,2011,190000.0,Manual,96000,2022-06-05,150k-200k,4
 1319,Nissan,Sunny,2011,146000.0,Automatic,147000,2022-06-05,100k-150k,7
 1320,Nissan,Sunny,2011,135000.0,Automatic,156000,2022-06-05,100k-150k,6
 1359,Nissan,Sunny,2011,200000.0,Manual,120000,2022-06-05,200k+,6
@@ -7259,7 +7251,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 7126,Nissan,Sunny,2011,106000.0,Automatic,252000,2023-02-13,100k-150k,6
 7173,Nissan Motor Egypt,Sunny,2011,109000.0,Automatic,201000,2023-02-13,100k-150k,2
 7174,Nissan Motor Egypt,Sunny,2011,106000.0,Automatic,266000,2023-02-13,100k-150k,6
-169,Nissan,Sunny,2011,22222.0,Automatic,0,2023-02-18,0-50k,15
 16734,Nissan Motor Egypt,Sunny,2011,140000.0,Automatic,282000,2023-02-19,100k-150k,5
 14842,Nissan,Sunny,2011,199999.0,Automatic,232000,2023-02-21,150k-200k,6
 6873,Nissan,Sunny,2011,185000.0,Automatic,245000,2023-02-27,150k-200k,21
@@ -8387,7 +8378,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 10765,Nissan,Sunny,2013,110000.0,Automatic,256000,2023-01-17,100k-150k,6
 10828,Nissan,Sunny,2013,159999.0,Automatic,225000,2023-01-17,150k-200k,17
 18305,Nissan,Sunny,2013,207.0,Manual,174000,2023-01-20,0-50k,18
-18309,Nissan,Sunny,2013,152.0,Automatic,0,2023-01-20,0-50k,6
 12464,Nissan,Sunny,2013,139999.0,Automatic,295000,2023-01-21,100k-150k,10
 12469,Nissan,Sunny,2013,119999.0,Automatic,214000,2023-01-21,100k-150k,6
 12513,Nissan,Sunny,2013,9999.0,Manual,195000,2023-01-21,0-50k,6
@@ -8399,7 +8389,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 12695,Nissan,Sunny,2013,179999.0,Automatic,220000,2023-01-21,150k-200k,14
 12698,Nissan,Sunny,2013,119999.0,Automatic,253000,2023-01-21,100k-150k,8
 12709,Nissan,Sunny,2013,119999.0,Automatic,252000,2023-01-21,100k-150k,6
-12713,Nissan,Sunny,2013,19999.0,Automatic,15000,2023-01-21,0-50k,6
 13311,Nissan,Sunny,2013,179999.0,Automatic,262000,2023-01-22,150k-200k,16
 9240,Nissan,Sunny,2013,141000.0,Automatic,232000,2023-01-23,100k-150k,2
 16757,Nissan,Sunny,2013,166000.0,Automatic,257000,2023-01-24,150k-200k,8
@@ -8466,7 +8455,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 9718,Nissan,Sunny,2013,199999.0,Automatic,256000,2023-03-08,150k-200k,6
 9720,Nissan,Sunny,2013,119999.0,Automatic,250000,2023-03-08,100k-150k,11
 1916,Nissan,Sunny,2013,181000.0,Automatic,273000,2023-03-11,150k-200k,1
-1922,Nissan,Sunny,2013,165.0,Automatic,0,2023-03-11,0-50k,6
 5435,Nissan,Sunny,2013,19999.0,Automatic,257000,2023-03-12,0-50k,15
 5453,Nissan Motor Egypt,Sunny,2013,250000.0,Automatic,249000,2023-03-12,200k+,6
 5466,Nissan,Sunny,2013,180000.0,Automatic,253000,2023-03-12,150k-200k,37
@@ -9440,8 +9428,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 19239,Nissan,Sunny,2014,192000.0,Automatic,182000,2023-02-08,150k-200k,9
 19298,Nissan,Sunny,2014,139999.0,Automatic,268000,2023-02-08,100k-150k,17
 4574,Nissan Motor Egypt,Sunny,2014,195000.0,Automatic,243000,2023-02-09,150k-200k,8
-8224,Nissan,Sunny,2014,230.0,Automatic,0,2023-02-12,0-50k,6
-8228,Nissan,Sunny,2014,250.0,Automatic,0,2023-02-12,0-50k,6
 8232,Nissan,Sunny,2014,139999.0,Automatic,207000,2023-02-12,100k-150k,11
 8260,Nissan Motor Egypt,Sunny,2014,156000.0,Automatic,222000,2023-02-12,150k-200k,6
 8270,Nissan,Sunny,2014,179999.0,Automatic,217000,2023-02-12,150k-200k,15
@@ -9452,7 +9438,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 196,Nissan Motor Egypt,Sunny,2014,198000.0,Automatic,210000,2023-02-18,150k-200k,6
 16667,Nissan,Sunny,2014,179999.0,Automatic,215000,2023-02-19,150k-200k,14
 16671,Nissan,Sunny,2014,140000.0,Automatic,280000,2023-02-19,100k-150k,24
-16673,Nissan,Sunny,2014,16000.0,Automatic,0,2023-02-19,0-50k,6
 16700,Nissan,Sunny,2014,119999.0,Manual,234000,2023-02-19,100k-150k,11
 16724,Nissan Motor Egypt,Sunny,2014,61500.0,Automatic,282000,2023-02-19,50k-100k,2
 16728,Nissan Motor Egypt,Sunny,2014,171000.0,Automatic,208000,2023-02-19,150k-200k,6
@@ -11447,7 +11432,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 17433,Nissan,Sunny,2016,99999.0,Automatic,259000,2023-04-12,50k-100k,6
 6956,Nissan,Sunny,2016,81000.0,Automatic,356000,2023-04-15,50k-100k,2
 6973,Nissan,Sunny,2016,105000.0,Automatic,306000,2023-04-15,100k-150k,6
-6986,Nissan,Sunny,2016,160.0,Automatic,0,2023-04-15,0-50k,15
 13837,Nissan,Sunny,2016,200000.0,Automatic,263000,2023-04-22,200k+,24
 13842,Nissan,Sunny,2016,195000.0,Automatic,246000,2023-04-22,150k-200k,6
 13849,Nissan,Sunny,2016,80000.0,Automatic,305000,2023-04-22,50k-100k,2
@@ -11469,7 +11453,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 7842,Nissan,Sunny,2016,119999.0,Automatic,335000,2023-04-30,100k-150k,15
 7845,Nissan,Sunny,2016,159999.0,Automatic,291000,2023-04-30,150k-200k,11
 7853,Nissan,Sunny,2016,130000.0,Automatic,365000,2023-04-30,100k-150k,2
-7873,Nissan,Sunny,2016,104.0,Automatic,0,2023-04-30,0-50k,13
 7878,Nissan,Sunny,2016,79000.0,Automatic,306000,2023-04-30,50k-100k,6
 4396,Nissan,Sunny,2017,59999.0,Automatic,171000,2022-02-02,50k-100k,11
 4422,Nissan,Sunny,2017,79999.0,Automatic,171000,2022-02-02,50k-100k,13
@@ -11979,6 +11962,7 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 16972,Nissan,Sunny,2017,250000.0,Automatic,204000,2022-09-01,200k+,18
 17015,Nissan,Sunny,2017,112000.0,Automatic,247000,2022-09-01,100k-150k,8
 17016,Nissan,Sunny,2017,85000.0,Automatic,161000,2022-09-01,50k-100k,6
+3792,Nissan,Sunny,2017,112000.0,Automatic,256000,2022-09-03,100k-150k,8
 3794,Nissan,Sunny,2017,125000.0,Automatic,230000,2022-09-03,100k-150k,7
 12258,Nissan,Sunny,2017,139999.0,Automatic,231000,2022-09-06,100k-150k,6
 12284,Nissan,Sunny,2017,89000.0,Automatic,223000,2022-09-06,50k-100k,6
@@ -13171,7 +13155,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 6895,Nissan,Sunny,2018,119999.0,Automatic,307000,2023-02-27,100k-150k,6
 6907,Nissan,Sunny,2018,139999.0,Automatic,352000,2023-02-27,100k-150k,6
 6657,Nissan,Sunny,2018,79999.0,Automatic,265000,2023-03-01,50k-100k,17
-6685,Nissan Motor Egypt,Sunny,2018,30000.0,Automatic,233000,2023-03-01,0-50k,6
 3144,Nissan,Sunny,2018,110000.0,Automatic,286000,2023-03-02,100k-150k,12
 3156,Nissan,Sunny,2018,99999.0,Automatic,300000,2023-03-02,50k-100k,13
 3165,Nissan,Sunny,2018,159999.0,Automatic,315000,2023-03-02,150k-200k,16
@@ -14083,7 +14066,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 16387,Nissan,Sunny,2019,193000.0,Automatic,329000,2023-01-01,150k-200k,27
 16401,Nissan,Sunny,2019,9999.0,Automatic,334000,2023-01-01,0-50k,6
 16410,Nissan,Sunny,2019,70000.0,Automatic,289000,2023-01-01,50k-100k,6
-16415,Nissan,Sunny,2019,99999.0,Automatic,205000,2023-01-01,50k-100k,12
 16420,Nissan,Sunny,2019,19999.0,Automatic,273000,2023-01-01,0-50k,6
 5076,Nissan,Sunny,2019,73000.0,Automatic,343000,2023-01-07,50k-100k,20
 5080,Nissan,Sunny,2019,127000.0,Automatic,261000,2023-01-07,100k-150k,18
@@ -15021,6 +15003,7 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 17490,Nissan,Sunny,2020,70000.0,Automatic,261000,2022-09-14,50k-100k,16
 17513,Nissan,Sunny,2020,119999.0,Automatic,242000,2022-09-14,100k-150k,11
 17518,Nissan,Sunny,2020,49999.0,Automatic,285000,2022-09-14,0-50k,11
+16325,Nissan,Sunny,2020,69999.0,Automatic,306000,2022-09-21,50k-100k,13
 16347,Nissan,Sunny,2020,59000.0,Automatic,295000,2022-09-21,50k-100k,6
 16349,Nissan,Sunny,2020,60000.0,Automatic,295000,2022-09-21,50k-100k,6
 16377,Nissan,Sunny,2020,79999.0,Automatic,305000,2022-09-21,50k-100k,1
@@ -15647,7 +15630,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 16149,Nissan,Sunny,2020,0.0,Manual,360000,2023-04-24,0-50k,12
 3575,Nissan,Sunny,2020,39999.0,Automatic,492000,2023-04-25,0-50k,10
 8698,Nissan,Sunny,2020,32000.0,Automatic,465000,2023-04-25,0-50k,28
-8707,Nissan,Sunny,2020,148000.0,Automatic,0,2023-04-25,100k-150k,23
 15395,Nissan,Sunny,2020,49000.0,Automatic,416000,2023-04-26,0-50k,23
 15405,Nissan,Sunny,2020,59999.0,Automatic,439000,2023-04-26,50k-100k,15
 15414,Nissan,Sunny,2020,90000.0,Automatic,330000,2023-04-26,50k-100k,2
@@ -15851,7 +15833,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 13208,Nissan,Sunny,2021,0.0,Automatic,278000,2022-05-31,0-50k,6
 13209,Nissan,Sunny,2021,10000.0,Automatic,241000,2022-05-31,0-50k,6
 13227,Nissan,Sunny,2021,49999.0,Automatic,247000,2022-05-31,0-50k,6
-13232,Nissan,Sunny,2021,139999.0,Automatic,205000,2022-05-31,100k-150k,6
 13234,Nissan,Sunny,2021,9999.0,Automatic,199000,2022-05-31,0-50k,6
 8810,Nissan,Sunny,2021,49999.0,Automatic,271000,2022-06-01,0-50k,6
 8813,Nissan,Sunny,2021,39999.0,Manual,210000,2022-06-01,0-50k,6
@@ -16172,7 +16153,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 16534,Nissan,Sunny,2021,91000.0,Automatic,316000,2022-09-26,50k-100k,6
 16540,Nissan,Sunny,2021,30000.0,Automatic,318000,2022-09-26,0-50k,6
 16556,Nissan,Sunny,2021,89999.0,Automatic,339000,2022-09-26,50k-100k,14
-14966,Nissan,Sunny,2021,60000.0,Automatic,343000,2022-09-28,50k-100k,25
 15033,Nissan,Sunny,2021,29999.0,Automatic,329000,2022-09-28,0-50k,6
 2282,Nissan,Sunny,2021,99999.0,Automatic,319000,2022-09-30,50k-100k,17
 2291,Nissan,Sunny,2021,40000.0,Automatic,333000,2022-09-30,0-50k,22
@@ -17742,7 +17722,6 @@ id,make,model,model_year,kilometers,transmission_type,price,priced_at,mileage_ca
 16422,Nissan,Sunny,2022,25000.0,Automatic,475000,2023-04-02,0-50k,2
 19165,Nissan,Sunny,2022,33.0,Automatic,454000,2023-04-04,0-50k,25
 19168,Nissan,Sunny,2022,65000.0,Automatic,423000,2023-04-04,50k-100k,25
-19171,Nissan,Sunny,2022,200000.0,Automatic,0,2023-04-04,200k+,17
 19186,Nissan,Sunny,2022,19999.0,Automatic,481000,2023-04-04,0-50k,9
 19202,Nissan,Sunny,2022,3000.0,Automatic,470000,2023-04-04,0-50k,2
 19210,Nissan,Sunny,2022,25000.0,Automatic,520000,2023-04-04,0-50k,3
