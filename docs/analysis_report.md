@@ -68,10 +68,19 @@ Assumption that, Due to price range difference between models, That affects numb
 ![modelyears_plot](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/295ec3d7-e614-48f0-996b-a831df5736eb)
 
 7- Effect of transmission type in car price:
-
+- The analysis reveals a notable price difference between cars with manual and automatic transmission types.
+- Cars with manual transmission tend to have lower prices compared to cars with automatic transmission.
+- This price difference can be attributed to various factors such as market demand, availability, and perceived value associated with different transmission types.
+- Buyers looking for more affordable options may consider cars with manual transmission, while those seeking convenience and ease of use may opt for cars with automatic transmission.
+- It is crucial for the company to account for this price disparity when estimating the value of used cars with different transmission types to ensure fair pricing and competitiveness in the market.
 ![price_distribution_over_transmission_type](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/32915bca-3feb-4fa9-9668-a5790936878a)
 
 8- Price Trend and Pattern over the years:
+- Analyzing the price trend and pattern over time for each car reveals interesting observations.
+- Car models exhibit a generally increasing price trend over the analyzed time period. This suggests a growing demands in these models. Except for Juke Platinium model, as we don't have enough data in the dataset, so it is not visible to determined its trend.
+- The price distribution in all the models suffers from fluctuations over time.
+- It is important for the company to closely monitor and analyze the price trends and patterns of different car models to make informed decisions regarding pricing strategies, inventory management, and understanding customer preferences.
+- By identifying these trends and patterns, the company can adapt its pricing and marketing strategies accordingly to maximize profitability and stay competitive in the market
 ![Price_Trend_After_Cleaning](https://github.com/AhmedYousriSobhi/ATmega-16-BOOTLOADER/assets/66730765/9628e474-889f-462f-898a-db8382d57b4b)
 
 9- How does the price vary based on different car features such as car model, manufacturing year, and kilometers driven?
@@ -97,7 +106,14 @@ Insights: Using Violin plot tell us the following:
 
 From All these insights, they can guide our pricing strategies, We can determine which car models command higher prices due to their perceived value, understand the range of prices that customers are willing to pay for different models, and identify any outliers in the prices.
 
-## Most important suggested KPIs
+## Recommendations
+Based on the analysis conducted, the following recommendations are suggested:
+- Regularly monitor and update pricing strategies based on the market trends and competitors prices.
+- Consider the impact of specific features on pricing decisions.
+- Continuously collect and analysis data on competitor prices to maintain a competitive edge.
+- Further explore the relationship between pricing and other external factors.
+  
+### Most important suggested KPIs for the company to target
 |KPI| Description|
 |---|------------|
 |Acqusition Cost| Measures the average cost incurred by the company to acquire each used car. <br/>This includes factors such as the purchase price from the seller, any associated fees, and transportation cost. <br/>Sylndr should aim to keep the acquisition cost as low as possible to maximize profitability.| 
@@ -109,6 +125,7 @@ From All these insights, they can guide our pricing strategies, We can determine
 |Market Share| Monitoring the company's market share in the used car buying market is important to assess its competitive position. <br/>Increasing market share indicates that the company is successfully attracting sellers and outperforming competitors.|
 |Customer Satisfaction| Although the company focuses on buying used cars, maintaining good relationships with sellers is crucial. <br/>Positive customer experiences can lead to word-of-mouth referrals and a larger pool of potential sellers. <br/>Gathering feedback from sellers can provide insights into their satisfaction level and identify areas for improvement.|
 
+### For calculation of each KPI
 |KPI| Calculation Method|
 |---|-------------------|
 |Acquisition Cost| Calculate the total cost incurred to acquire used cars (purchase price, fees, transportation costs, etc.). <br/>Divide the total acquisition cost by the number of cars acquired to get the average acquisition cost per car.|
@@ -120,3 +137,5 @@ From All these insights, they can guide our pricing strategies, We can determine
 |Market Share| Collect market data on the total number of used cars sold in the market or within a specific region. <br/>Determine the number of used cars acquired by the company within the same market or region. <br/>Calculate the company's market share by dividing the number of cars acquired by the total market sales and multiplying by 100 for a percentage value.|
 |Customer Satisfaction| Gather feedback from sellers after the transaction, either through surveys or direct communication. <br/>Design a satisfaction rating scale (e.g., 1 to 5) or collect qualitative feedback to assess seller satisfaction. <br/>Calculate the average satisfaction rating or percentage of satisfied sellers based on the collected feedback.|
 
+## Conclution
+In conclusion, the analysis of the used car dataset has provided valuable insights into car models, transmission types, price trends, and competitor prices. These insights can assist the company in making informed decisions regarding pricing, inventory management, and understanding customer preferences. It is crucial for the company to leverage these findings to refine its strategies, maximize profitability, and establish a strong foothold in the competitive used car market.
