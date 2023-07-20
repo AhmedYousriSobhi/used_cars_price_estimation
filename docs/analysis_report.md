@@ -1,8 +1,7 @@
-# Sylndr
 # Analysis Report: Estimating Prices for Used Cars
 
 ## Introduction
-The aim of this analysis report is to provide insights into the process of estimating prices for used cars in the context of Sylndr's business model. As a company specializing in buying used cars from customers, accurately determining the appropriate price for each vehicle is crucial for ensuring fair transactions and maintaining competitive advantage in the market.
+The aim of this analysis report is to provide insights into the process of estimating prices for used cars in the context of Company's business model. As a company specializing in buying used cars from customers, accurately determining the appropriate price for each vehicle is crucial for ensuring fair transactions and maintaining competitive advantage in the market.
 
 Estimating the price of a used car involves considering various factors, such as the car's model, the distance it has traveled (moved kilometers), and the year of its manufacturing. Additionally, competitor prices for similar cars play a significant role in determining the appropriate price to offer our customers. By analyzing these factors and the market dynamics, we can develop a robust pricing strategy that aligns with customer expectations and market trends.
 
@@ -116,7 +115,7 @@ Based on the analysis conducted, the following recommendations are suggested:
 ### Most important suggested KPIs for the company to target
 |KPI| Description|
 |---|------------|
-|Acqusition Cost| Measures the average cost incurred by the company to acquire each used car. <br/>This includes factors such as the purchase price from the seller, any associated fees, and transportation cost. <br/>Sylndr should aim to keep the acquisition cost as low as possible to maximize profitability.| 
+|Acqusition Cost| Measures the average cost incurred by the company to acquire each used car. <br/>This includes factors such as the purchase price from the seller, any associated fees, and transportation cost. <br/>Company should aim to keep the acquisition cost as low as possible to maximize profitability.| 
 |Profitability| Main kpi the company should aim to maximize the profit margin on each acquaired car. <br/>This could be achieved by accurately estimating the appropriate buying price based on the car's features, condition, market demands, and competitor prices.|
 |Quality of Inventory| Can be measured by evaluating the condition of the cars, their maintenance history, and the presence of any significant issues or damages. <br/>Maintaining a high-quality inventory helps attract customers and ensures better resale opportunities. <br/>In this dataset, extra_features column could be considered as quality of inventory.|
 |Turnaround Time| Referes to the duration between acquiring a used car and selling it. <br/>A shorter turnaround time allows the company to quickly recoup their investment and maximize cash flow. <br/>Calculation by dividing the total number of cars sold within a specific period by the average number of cars in inventory during that period.|

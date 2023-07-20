@@ -1,12 +1,10 @@
-# Data Scientist Evaluation Task
+# Data Scientist Anlysis Task
 | Info | Description |
 |:-----:|:----------:|
-| Project Objective | Acquisition price estimation for Nissan used cars |
+| Project Objective | Acquisition price estimation for used cars |
 | Assignee | Ahmed Yousri Sobhi |
 | Assignee's email | [ahmedyousrisobhi@gmail.com](ahmedyousrisobhi@gmail.com) |
-| Owener | Sylnder |
-| StartLine | 14th June 2023 |
-| DeadLine | Due date 21st June 2023 EOD |
+| Department | Data Science |
 
 ## Project Structure
 ```bash
