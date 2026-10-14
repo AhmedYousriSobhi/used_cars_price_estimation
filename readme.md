@@ -105,3 +105,9 @@ This repository is licensed under the MIT License, which means you're free to us
 Thank you for visiting my project repository! Feel free to explore the data-driven approach. If you find something helpful or have questions, don't hesitate to reach out.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## License
+
+The code, notebooks and reports in this repository are licensed under the [MIT License](LICENSE).
+
+The datasets in `data/` are not covered by this license. They remain with their original owners.
